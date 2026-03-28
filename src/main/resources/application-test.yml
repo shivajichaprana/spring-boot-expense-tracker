@@ -15,10 +15,6 @@ spring:
   flyway:
     enabled: false
 
-  data:
-    redis:
-      host: ""
-
   cache:
     type: simple
 
