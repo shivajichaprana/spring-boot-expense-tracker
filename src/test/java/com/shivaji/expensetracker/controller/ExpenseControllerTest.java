@@ -7,7 +7,6 @@ import com.shivaji.expensetracker.dto.ExpenseResponse;
 import com.shivaji.expensetracker.model.Category;
 import com.shivaji.expensetracker.model.User;
 import com.shivaji.expensetracker.security.JwtTokenProvider;
-import com.shivaji.expensetracker.service.AuthService;
 import com.shivaji.expensetracker.service.ExpenseService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -18,7 +17,7 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.MediaType;
-import org.springframework.security.test.context.support.WithMockUser;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
 
@@ -46,7 +45,7 @@ class ExpenseControllerTest {
     private ExpenseService expenseService;
 
     @MockitoBean
-    private AuthService authService;
+    private UserDetailsService userDetailsService;
 
     @MockitoBean
     private JwtTokenProvider jwtTokenProvider;
