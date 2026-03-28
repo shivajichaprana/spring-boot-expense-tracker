@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/shivajichaprana/spring-boot-expense-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/shivajichaprana/spring-boot-expense-tracker/actions/workflows/ci.yml)
 [![Java](https://img.shields.io/badge/Java-17-orange)](https://openjdk.org/projects/jdk/17/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-green)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4-green)](https://spring.io/projects/spring-boot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Production-quality REST API for personal expense tracking, built with Spring Boot 3. Features JWT authentication with refresh tokens, full CRUD with validation, monthly/yearly analytics with Redis caching, Flyway migrations, and comprehensive test coverage.
@@ -61,7 +61,7 @@ Production-quality REST API for personal expense tracking, built with Spring Boo
 | Technology | Purpose |
 |-----------|---------|
 | Java 17 | LTS with modern features (records, sealed classes, pattern matching) |
-| Spring Boot 3.2 | Web framework, dependency injection, auto-configuration |
+| Spring Boot 3.4 | Web framework, dependency injection, auto-configuration |
 | Spring Security 6 | JWT authentication with access + refresh tokens |
 | Spring Data JPA | Repository abstraction over Hibernate |
 | PostgreSQL 16 | Production relational database |
