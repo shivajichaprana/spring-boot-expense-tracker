@@ -22,8 +22,8 @@ public class OpenApiConfig {
                         .description("REST API for personal expense tracking with JWT authentication, "
                                 + "CRUD operations, analytics, and Redis caching")
                         .contact(new Contact()
-                                .name("Shivaji Chaprana")
-                                .email("shivajichaprana97@gmail.com")
+                                .name("Project Maintainers")
+                                .email("noreply@example.invalid")
                                 .url("https://github.com/shivajichaprana"))
                         .license(new License()
                                 .name("MIT")
